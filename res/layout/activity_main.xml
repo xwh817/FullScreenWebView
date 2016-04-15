@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+<!--     <LinearLayout
+        android:id="@+id/layout_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <EditText 
+        android:id="@+id/input_url"       
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="http://www.baidu.com"
+        android:hint="请输入网址"
+        />
+    
+    <Button
+        android:id="@+id/bt_go"       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO" />
+    </LinearLayout> -->
+    
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    
+    
+    <TextView
+        android:id="@+id/text_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="32sp"
+        android:textColor="#ff0000"
+        android:text="" />
+
+</RelativeLayout>
